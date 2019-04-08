@@ -1,0 +1,46 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate Free CRM Home Page Test",
+        "description": "",
+        "id": "free-crm-application-test;validate-free-crm-home-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user open browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "#Then user is on login page"
+              }
+            ],
+            "line": 7,
+            "name": "user logs into app",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Application Test",
+    "description": "",
+    "id": "free-crm-application-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/82009/eclipse-workspace/BDDFrameWorkcucumberTest/src/main/java/pageObjectFeature/pageObject.feature"
+  }
+]

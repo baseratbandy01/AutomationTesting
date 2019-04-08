@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Free CRM Create a new contact Test",
+        "description": "",
+        "id": "free-crm-create-contacts;free-crm-create-a-new-contact-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3157720373,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is already on login page",
+            "match": {
+              "location": "ContactStepWithMApDefinitation.user_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2208857980,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "ContactStepWithMApDefinitation.title_of_login_page_is_free_crm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user enters \"naveenk\" and \"test@123\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user click on login button",
+            "match": {
+              "location": "ContactStepWithMApDefinitation.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user move on contact tab",
+            "match": {
+              "location": "ContactStepWithMApDefinitation.user_move_on_contact_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user enters contact deatils \"Tom\" and \"Peter\" and \"Manger\"",
+            "match": {},
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Free CRM Create a new contact Test",
+        "description": "",
+        "id": "free-crm-create-contacts;free-crm-create-a-new-contact-test;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2233149309,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is already on login page",
+            "match": {
+              "location": "ContactStepWithMApDefinitation.user_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2693137833,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "ContactStepWithMApDefinitation.title_of_login_page_is_free_crm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user enters \"naveenk\" and \"test@123\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user click on login button",
+            "match": {
+              "location": "ContactStepWithMApDefinitation.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user move on contact tab",
+            "match": {
+              "location": "ContactStepWithMApDefinitation.user_move_on_contact_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user enters contact deatils \"David\" and \"Dsouza\" and \"Director\"",
+            "match": {},
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Create Contacts",
+    "description": "",
+    "id": "free-crm-create-contacts",
+    "keyword": "Feature",
+    "uri": "C:/Users/82009/eclipse-workspace/BDDFrameWorkcucumberTest/src/main/java/cucumberFeature/contacts.feature"
+  }
+]

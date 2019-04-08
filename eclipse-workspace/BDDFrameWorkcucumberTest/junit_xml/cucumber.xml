@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="10.292865">
+<testcase classname="Free CRM Create Contacts" name="Free CRM Create a new contact Test" time="5.366578">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given User is already on login page.........................................passed
+When title of login page is Free CRM........................................passed
+Then user enters "naveenk" and "test@123"...................................undefined
+Then user click on login button.............................................skipped
+Then user move on contact tab...............................................skipped
+Then user enters contact deatils "Tom" and "Peter" and "Manger".............undefined
+]]></failure>
+</testcase>
+<testcase classname="Free CRM Create Contacts" name="Free CRM Create a new contact Test 2" time="4.926287">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given User is already on login page.........................................passed
+When title of login page is Free CRM........................................passed
+Then user enters "naveenk" and "test@123"...................................undefined
+Then user click on login button.............................................skipped
+Then user move on contact tab...............................................skipped
+Then user enters contact deatils "David" and "Dsouza" and "Director"........undefined
+]]></failure>
+</testcase>
+</testsuite>

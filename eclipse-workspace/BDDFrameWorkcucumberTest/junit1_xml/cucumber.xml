@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+<testcase classname="Free CRM Application Test" name="Validate Free CRM Home Page Test" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user open browser.....................................................undefined
+Then user logs into app.....................................................undefined
+]]></failure>
+</testcase>
+</testsuite>
