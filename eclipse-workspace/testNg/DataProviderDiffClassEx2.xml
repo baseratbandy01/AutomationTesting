@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Text">
+
+	<test name=" details">
+	<classes>
+			<class name="testNg1.DataProvider.DataProviderUsingCallingClassEx2">
+			</class>
+		</classes>
+
+
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

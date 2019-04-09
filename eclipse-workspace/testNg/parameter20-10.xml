@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Text">
+<!--  parameter name="data" value="1234"/>-->
+<parameter name="number-of-times" value="3"/>
+	<test name=" details">
+	<classes>
+	<class name="parameters. DefineParametersSevralTimes">
+	</class>
+			<!--  class name="testNg1.TestingTestNG">
+			</class>-->
+		</classes>
+
+
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

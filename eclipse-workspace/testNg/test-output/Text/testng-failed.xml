@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Text]">
+  <listeners>
+    <listener class-name="listeners.ListenersDemo"/>
+  </listeners>
+  <test thread-count="5" name=" details(failed)">
+    <groups>
+      <run>
+        <exclude name="add"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="listeners.ListenerTestCases">
+        <methods>
+          <include name="div"/>
+        </methods>
+      </class> <!-- listeners.ListenerTestCases -->
+    </classes>
+  </test> <!--  details(failed) -->
+</suite> <!-- Failed suite [Text] -->

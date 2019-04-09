@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Text">
+	<parameter name="bus" value="basirat">
+	</parameter>
+	<parameter name="num" value="1234">
+	</parameter>
+	<test name=" details">
+
+
+		<classes>
+			<class name="dependencies.OverloadingMethods">
+			</class>
+		</classes>
+
+	</test>
+</suite> 

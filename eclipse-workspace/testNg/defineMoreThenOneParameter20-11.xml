@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Text">
+
+	<test name=" T1">
+	<parameters name="number-of-times" value="10" />
+	
+	<classes>
+			<class name="parameters.DefineParametersSevralTimes">
+			</class>
+		</classes>
+</test> <!-- Test -->
+	<test name="T2">
+	<parameters name="number-of-times" value="20" />
+	
+	<class name="parameters.DefineParametersSevralTimes">
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
