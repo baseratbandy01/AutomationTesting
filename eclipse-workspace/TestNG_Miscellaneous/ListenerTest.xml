@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Listeners TestSuites">
+<listeners>
+	<listener class-name="listenerpacakge.All_Listeners_ImplementClass"></listener>
+</listeners>
+
+   <test name="Application Test1">
+  <classes>
+  <class name="ListenersTestMethod.ListenerClassTest"></class>
+  </classes>
+  
+  </test>
+  <test name="Application Test2" >
+  <classes>
+  <class name="ListenersTestMethod.Listener_Test_Method"></class>
+  </classes>
+   
+   
+  </test> 
+</suite> 

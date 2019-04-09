@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14812" started-at="2018-11-15T18:40:01Z" finished-at="2018-11-15T18:40:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14812" started-at="2018-11-15T18:40:01Z" finished-at="2018-11-15T18:40:16Z">
+      <class name="TestCases.CallingClass">
+        <test-method status="PASS" signature="Sigin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.CallingClass@231f98ef]" name="Sigin" duration-ms="8241" started-at="2018-11-15T18:40:02Z" data-provider="getData" finished-at="2018-11-15T18:40:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.next.co.uk/secure/account/Login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[basirat_bashir@hotmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aafiya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sigin -->
+        <test-method status="PASS" signature="navgatingHomePage()[pri:2, instance:TestCases.CallingClass@231f98ef]" name="navgatingHomePage" duration-ms="6543" started-at="2018-11-15T18:40:10Z" finished-at="2018-11-15T18:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navgatingHomePage -->
+      </class> <!-- TestCases.CallingClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

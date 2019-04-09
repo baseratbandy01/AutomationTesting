@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Loan Department" parallel="tests" thread-count="2">
+  
+   <parameter name="URL" value="qaclickacademy.com"/>
+   
+  <test name="Personal Loan" >
+   <parameter name="URL" value="Personal Loan.com"/>
+ 
+    <parameter name="APIKey/username" value="irfan123"/>
+    
+    <classes>
+       <class name="test.Basic1"/>
+       <class name="test.Basic2"/>
+        <class name="test.Basic4"/>
+       </classes>
+ </test>
+ 
+      <test name="Car Loan">
+  
+        <classes>
+  
+         <class name="test.Basic3"/>
+           <parameter name="URL" value="Car Loan.com"/>
+     
+      </classes>
+  </test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Resources.ListenersClass"/>
+    <listener class-name="Resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Amazon(failed)">
+    <classes>
+      <class name="ScratchRealTime.EndToEndProject.HomePage">
+        <methods>
+          <include name="ExecutingClassNavigation"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- ScratchRealTime.EndToEndProject.HomePage -->
+    </classes>
+  </test> <!-- Amazon(failed) -->
+</suite> <!-- Failed suite [Suite] -->

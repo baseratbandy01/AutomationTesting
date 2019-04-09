@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Preserve Enable TestSuite" >
+  <test name="Test 1" preserve-order="false">
+ <!-- if we do it true then it will run accoding to the order it will be written but if it is false then it will do it according ti asending order -->	
+    <classes>
+      <class name="preserveOrderExecution.PreserveOrder2"/>
+       <class name="preserveOrderExecution.PreserverOrder1"/>
+    </classes>
+  </test> 
+   <test name="Test 2" enabled="false"><!-- this will not run test 2 if we do true then it will run it -->
+    <classes>
+      <class name="preserveOrderExecution.PreserveOrder2"/>
+       <class name="preserveOrderExecution.PreserverOrder1"/>
+    </classes>
+    </test>
+</suite> <!-- Suite -->

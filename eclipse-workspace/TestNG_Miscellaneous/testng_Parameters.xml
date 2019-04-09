@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters TestSuite">
+
+  <test name="Test1" >
+  <parameter name="website" value="https://www.ebay.co.uk"></parameter>
+  <parameter name="Search" value="//*[@type='text']"></parameter>
+  <parameter name="sendKey" value="women coats"></parameter>
+  <parameter name="Submit" value="//*[@type='submit']"></parameter>
+  <parameter name="test" value="342,678"></parameter>
+  <classes>
+  <class name="testParameters.TestNg_Parameters"></class>
+  </classes>
+   
+  </test> 
+</suite> 

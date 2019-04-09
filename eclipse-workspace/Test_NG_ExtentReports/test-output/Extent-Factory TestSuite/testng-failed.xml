@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Extent-Factory TestSuite]">
+  <test name="Test Report(failed)">
+    <classes>
+      <class name="extentReportTest.FaceBookLogin_TestReport">
+        <methods>
+          <include name="sigIn"/>
+          <include name="setUpBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- extentReportTest.FaceBookLogin_TestReport -->
+      <class name="extentReportTest.Test_ExtentFactory">
+        <methods>
+          <include name="browserSetUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- extentReportTest.Test_ExtentFactory -->
+    </classes>
+  </test> <!-- Test Report(failed) -->
+</suite> <!-- Failed suite [Extent-Factory TestSuite] -->

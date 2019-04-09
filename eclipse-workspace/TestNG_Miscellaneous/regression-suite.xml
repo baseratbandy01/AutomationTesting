@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression TestSuite">
+<test name="Browser Test">
+<classes>
+<class name="regressionSuite.TestAsserts">
+</class>
+<class name="regressionSuite.TestNG_TestClass1">
+</class>
+</classes>
+</test>
+</suite>

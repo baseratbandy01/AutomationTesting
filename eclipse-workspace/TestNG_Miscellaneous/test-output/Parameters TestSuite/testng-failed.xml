@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameters TestSuite]">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="website" value="https://www.ebay.co.uk"/>
+    <parameter name="test" value="342,678"/>
+    <parameter name="sendKey" value="women coats"/>
+    <parameter name="Search" value="//*[@type=&#039;text&#039;]"/>
+    <parameter name="Submit" value="//*[@type=&#039;submit&#039;]"/>
+    <classes>
+      <class name="testParameters.TestNg_Parameters">
+        <methods>
+          <include name="setUp"/>
+          <include name="close"/>
+          <include name="stringToInteger" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testParameters.TestNg_Parameters -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Parameters TestSuite] -->

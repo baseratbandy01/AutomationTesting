@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Listeners TestSuites" duration-ms="92" started-at="2019-01-17T12:03:58Z" finished-at="2019-01-17T12:03:58Z">
+    <groups>
+    </groups>
+    <test name="Application Test1" duration-ms="36" started-at="2019-01-17T12:03:58Z" finished-at="2019-01-17T12:03:58Z">
+      <class name="ListenersTestMethod.ListenerClassTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ListenersTestMethod.ListenerClassTest@34c4973]" name="setUp" is-config="true" duration-ms="9" started-at="2019-01-17T12:03:58Z" finished-at="2019-01-17T12:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="add()[pri:0, instance:ListenersTestMethod.ListenerClassTest@34c4973]" name="add" duration-ms="5" started-at="2019-01-17T12:03:58Z" finished-at="2019-01-17T12:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="multi()[pri:0, instance:ListenersTestMethod.ListenerClassTest@34c4973]" name="multi" duration-ms="2" started-at="2019-01-17T12:03:58Z" finished-at="2019-01-17T12:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multi -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:ListenersTestMethod.ListenerClassTest@34c4973]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-01-17T12:03:58Z" finished-at="2019-01-17T12:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- ListenersTestMethod.ListenerClassTest -->
+    </test> <!-- Application Test1 -->
+    <test name="Application Test2" duration-ms="10" started-at="2019-01-17T12:03:58Z" finished-at="2019-01-17T12:03:58Z">
+      <class name="ListenersTestMethod.Listener_Test_Method">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ListenersTestMethod.Listener_Test_Method@9a7504c]" name="setUp" is-config="true" duration-ms="0" started-at="2019-01-17T12:03:58Z" finished-at="2019-01-17T12:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="add()[pri:0, instance:ListenersTestMethod.Listener_Test_Method@9a7504c]" name="add" duration-ms="1" started-at="2019-01-17T12:03:58Z" finished-at="2019-01-17T12:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="FAIL" signature="div()[pri:0, instance:ListenersTestMethod.Listener_Test_Method@9a7504c]" name="div" duration-ms="1" started-at="2019-01-17T12:03:58Z" finished-at="2019-01-17T12:03:58Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at ListenersTestMethod.Listener_Test_Method.div(Listener_Test_Method.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:ListenersTestMethod.Listener_Test_Method@9a7504c]" name="cleanUp" is-config="true" duration-ms="1" started-at="2019-01-17T12:03:58Z" finished-at="2019-01-17T12:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- ListenersTestMethod.Listener_Test_Method -->
+    </test> <!-- Application Test2 -->
+  </suite> <!-- Listeners TestSuites -->
+</testng-results>

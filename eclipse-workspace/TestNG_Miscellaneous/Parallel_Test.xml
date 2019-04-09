@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel TestSuite" parallel="tests" thread-count="2">
+
+  <test name="Chorme Test" >
+   <parameter name="baseURL" value="https://www.ebay.co.uk"></parameter>
+  <parameter name="Search" value="//*[@type='text']"></parameter>
+  <parameter name="sendKey" value="women coats"></parameter>
+  <parameter name="Submit" value="//*[@type='submit']"></parameter>
+  <parameter name="test" value="342,678"></parameter>
+  <classes>
+  <class name="parallelTest.ParallelTest1"></class>
+  </classes>
+  
+  </test> 
+  <test name="FireFox Test" >
+   <parameter name="baseURL1" value="https://www.facebook.com"></parameter>
+  <parameter name="email" value="//*[@type='email']"></parameter>
+  <parameter name="Key" value="irfan_sheikh@hotmail.com"></parameter>
+  <parameter name="password" value="//*[@type='password']"></parameter>
+  <parameter name="sendKey" value="Aamina10!"></parameter>
+  <parameter name="Submit" value="//*[@value='Log In']"></parameter>
+ 
+  <classes>
+  <class name="parallelTest.ParallelTest2"></class>
+  </classes>
+   
+  </test> 
+</suite> 

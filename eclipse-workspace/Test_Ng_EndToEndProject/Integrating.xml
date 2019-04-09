@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Resources.ListenersClass">
+			<listener class-name="Resources.ExtentReporterNG"/>
+		</listener>
+	</listeners>
+  
+ 
+  <test thread-count="5" name="Validating browser">
+    <classes>
+      <class name="Resources.ExecutingClass"/>
+      <class name="Resources.CallingClass"/>
+      </classes>
+      </test>
+      	
+             <test name="Amazon">
+              <classes>
+      <class name="ScratchRealTime.EndToEndProject.HomePage"/>
+        </classes>
+	  </test> <!-- Test -->
+</suite> <!-- Suite -->

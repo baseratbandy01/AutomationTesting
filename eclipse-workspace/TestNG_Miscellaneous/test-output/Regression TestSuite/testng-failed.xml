@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression TestSuite]">
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="testNg_ReportsAndLogs_HtmlReport.TestNG_ReportsAndLogs">
+        <methods>
+          <include name="BrowserSetUp"/>
+          <include name="browserClose"/>
+          <include name="logIN"/>
+        </methods>
+      </class> <!-- testNg_ReportsAndLogs_HtmlReport.TestNG_ReportsAndLogs -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Regression TestSuite] -->

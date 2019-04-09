@@ -1,0 +1,10 @@
+<suite name="Regression TestSuite">
+<test name="Browser Test">
+<classes>
+<class name="methodsAndAnnotations.AnnotationClass">
+</class>
+<class name="methodsAndAnnotations.TestNG_TestClass1">
+</class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Parallel TestSuite]" parallel="tests">
+  <test thread-count="2" name="Test2(failed)" parallel="tests">
+    <parameter name="password" value="//*[@type=&#039;password&#039;]"/>
+    <parameter name="website1" value="https://www.facebook.com"/>
+    <parameter name="sendKey" value="Aamina10!"/>
+    <parameter name="Submit" value="//*[@value=&#039;Log In&#039;]"/>
+    <parameter name="email" value="//*[@type=&#039;email&#039;]"/>
+    <parameter name="Key" value="irfan_sheikh@hotmail.com"/>
+    <classes>
+      <class name="parallelTest.ParallelTest2">
+        <methods>
+          <include name="faceBook"/>
+          <include name="beforeClass"/>
+          <include name="pwd"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- parallelTest.ParallelTest2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Parallel TestSuite] -->
