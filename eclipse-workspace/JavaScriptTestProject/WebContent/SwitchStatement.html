@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Switch Statement</title>
+</head>
+<body>
+<p id="test"></p>
+<p id="demo"></p>
+<script type="text/javascript">
+/* var score1=80;
+//var score2=60;
+var result;
+switch(score1){
+case 90:
+case 80:
+case 100:
+	result="You have scored highest score";
+	break;
+case 60:
+	result="Sorry you are not qulified"
+	break;
+default
+result="unknow"
+}
+
+document.getElementById("test").innerHTML= result;
+ */
+var a=0;
+ var result="";
+ var name=["Tom","Som","tim","Rim"];
+/*  while(a<10){
+	 result +="<br>" +a;
+	 a++;
+	 }
+ var b=0;
+ var result1="";
+ do {
+	 result1 +="<br>" +b;
+	 b++;
+ }while(b<=10); */
+ 
+ /* for(a=0; a<name.length; a++){
+	 result +="<br>" +name[a];
+	 
+ } */
+ var student = {name:"Tom",surname:"tesar",Age:33}
+ var x;
+ for(x in student){
+	 result +=" <br>" +student[x];
+ }
+ document.getElementById("test").innerHTML= result;
+// document.getElementById("demo").innerHTML= result1;
+</script>
+</body>
+</html>

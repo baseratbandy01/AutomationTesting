@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JavaScript Function</title>
+</head>
+<body>
+<h1 id="demo"></h1>
+<h1 id="Sum"></h1>
+<h1 id="Sum1"></h1>
+<script type="text/javascript">
+function printMessage(){
+	document.getElementById("demo").innerHTML="Hello World"
+}
+function add(num1,num2){
+	return num1+num2;
+}
+printMessage();
+document.getElementById("Sum").innerHTML=add(45,76)
+document.getElementById("Sum1").innerHTML=add(50,76)
+document.getElementById("Sum1").innerHTML=add("Irfan "," Sheikh")
+</script>
+</body>
+</html>
