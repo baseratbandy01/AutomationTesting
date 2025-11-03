@@ -6,10 +6,8 @@ import java.util.Scanner;
  */
 public class SimpleCalculator {
     
-    private Scanner scanner;
-    
     public SimpleCalculator() {
-        scanner = new Scanner(System.in);
+        // Scanner will be created in run() method with try-with-resources
     }
     
     /**
@@ -30,7 +28,8 @@ public class SimpleCalculator {
         
         boolean continueCalculating = true;
         
-        while (continueCalculating) {
+        try (Scanner scanner = new Scanner(System.in)) {
+            while (continueCalculating) {
             try {
                 // Get first number
                 System.out.print("\nEnter first number: ");
@@ -58,14 +57,14 @@ public class SimpleCalculator {
                 System.out.println("\nError: " + e.getMessage());
             }
             
-            // Ask if user wants to continue
-            System.out.print("\nDo you want to perform another calculation? (yes/no): ");
-            String response = scanner.nextLine().trim().toLowerCase();
-            continueCalculating = response.equals("yes") || response.equals("y");
-        }
-        
-        System.out.println("\nThank you for using Simple Calculator!");
-        scanner.close();
+                // Ask if user wants to continue
+                System.out.print("\nDo you want to perform another calculation? (yes/no): ");
+                String response = scanner.nextLine().trim().toLowerCase();
+                continueCalculating = response.equals("yes") || response.equals("y");
+            }
+            
+            System.out.println("\nThank you for using Simple Calculator!");
+        } // Scanner automatically closed here
     }
     
     /**
